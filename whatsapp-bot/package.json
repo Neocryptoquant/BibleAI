@@ -1,0 +1,21 @@
+{
+  "name": "bibleai-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot for BibleAI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "firebase-admin": "^11.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
